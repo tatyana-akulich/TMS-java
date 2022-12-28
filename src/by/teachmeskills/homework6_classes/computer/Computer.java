@@ -39,6 +39,22 @@ public class Computer {
         this.hdd = new HDD();
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public RAM getRam() {
+        return ram;
+    }
+
+    public HDD getHdd() {
+        return hdd;
+    }
+
     public Computer(int price, String model, RAM ram, HDD hdd) {
         this.price = price;
         this.model = model;

@@ -17,6 +17,8 @@ package by.teachmeskills.homework6_classes.creditcard;
         ●	Положите деньги на первые две карточки и снимите с третьей.
         ●	Выведите на экран текущее состояние всех трех карточек.*/
 
+import java.util.Random;
+
 public class CreditCard {
     private long accountNumber;
     private int balance;
@@ -24,6 +26,19 @@ public class CreditCard {
     public CreditCard(long accountNumber, int balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
+    }
+
+    public CreditCard(long accountNumber) {
+        this.accountNumber = accountNumber;
+        this.balance = 0;
+    }
+
+    public long getAccountNumber() {
+        return accountNumber;
+    }
+
+    public int getBalance() {
+        return balance;
     }
 
     public void addMoney(int sum) {

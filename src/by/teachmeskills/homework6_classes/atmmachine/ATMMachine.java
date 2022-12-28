@@ -22,6 +22,18 @@ public class ATMMachine {
         this.notesHundred = notesHundred;
     }
 
+    public int getNotesTwenty() {
+        return notesTwenty;
+    }
+
+    public int getNotesFifty() {
+        return notesFifty;
+    }
+
+    public int getNotesHundred() {
+        return notesHundred;
+    }
+
     public void addMoney(int twenty, int fifty, int hundred) {
         notesTwenty += twenty;
         notesFifty += fifty;

@@ -3,7 +3,7 @@ package by.teachmeskills.homework6_classes.computer;
 public class HDD {
     private String name;
     private int volume;
-    HDDType type;
+    private HDDType type;
 
     public HDD() {
     }
@@ -12,6 +12,18 @@ public class HDD {
         this.name = name;
         this.volume = volume;
         this.type = type;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
+    public HDDType getType() {
+        return type;
     }
 
     @Override

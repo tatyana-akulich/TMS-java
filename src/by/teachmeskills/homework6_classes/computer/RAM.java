@@ -12,6 +12,14 @@ public class RAM {
         this.volume = volume;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getVolume() {
+        return volume;
+    }
+
     @Override
     public String toString() {
         return "RAM{" +
