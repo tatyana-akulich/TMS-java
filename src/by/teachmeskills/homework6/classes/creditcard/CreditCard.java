@@ -1,4 +1,4 @@
-package by.teachmeskills.homework6_classes.creditcard;
+package by.teachmeskills.homework6.classes.creditcard;
 
 /*
 1. CreditCard
@@ -16,8 +16,6 @@ package by.teachmeskills.homework6_classes.creditcard;
         Тестовый сценарий для проверки:
         ●	Положите деньги на первые две карточки и снимите с третьей.
         ●	Выведите на экран текущее состояние всех трех карточек.*/
-
-import java.util.Random;
 
 public class CreditCard {
     private long accountNumber;

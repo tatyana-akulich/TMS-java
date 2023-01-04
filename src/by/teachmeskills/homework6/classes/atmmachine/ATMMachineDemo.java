@@ -1,4 +1,4 @@
-package by.teachmeskills.homework6_classes.atmmachine;
+package by.teachmeskills.homework6.classes.atmmachine;
 
 public class ATMMachineDemo {
     public static void main(String[] args) {

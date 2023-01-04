@@ -1,17 +1,15 @@
-package by.teachmeskills.homework6_classes.computer;
+package by.teachmeskills.homework6.classes.computer;
 
-public class HDD {
+public class RAM {
     private String name;
     private int volume;
-    private HDDType type;
 
-    public HDD() {
+    public RAM() {
     }
 
-    public HDD(String name, int volume, HDDType type) {
+    public RAM(String name, int volume) {
         this.name = name;
         this.volume = volume;
-        this.type = type;
     }
 
     public String getName() {
@@ -22,16 +20,11 @@ public class HDD {
         return volume;
     }
 
-    public HDDType getType() {
-        return type;
-    }
-
     @Override
     public String toString() {
-        return "HDD{" +
+        return "RAM{" +
                 "name='" + name + '\'' +
                 ", volume=" + volume +
-                ", type=" + type +
                 '}';
     }
 

@@ -1,4 +1,4 @@
-package by.teachmeskills.homework6_classes.creditcard;
+package by.teachmeskills.homework6.classes.creditcard;
 
 public class CreditCardDemo {
     public static void main(String[] args) {

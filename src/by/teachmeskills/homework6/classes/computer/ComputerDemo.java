@@ -1,4 +1,4 @@
-package by.teachmeskills.homework6_classes.computer;
+package by.teachmeskills.homework6.classes.computer;
 
 public class ComputerDemo {
     public static void main(String[] args) {
