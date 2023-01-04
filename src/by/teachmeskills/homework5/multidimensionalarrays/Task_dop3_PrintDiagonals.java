@@ -1,4 +1,4 @@
-package by.teachmeskills.homework5_multidimensional_arrays;
+package by.teachmeskills.homework5.multidimensionalarrays;
 
 import java.util.Arrays;
 

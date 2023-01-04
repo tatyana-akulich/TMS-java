@@ -1,4 +1,4 @@
-package by.teachmeskills.homework5_multidimensional_arrays;
+package by.teachmeskills.homework5.multidimensionalarrays;
 
 public class Task2_ChessBoard {
     public static void main(String[] args) {

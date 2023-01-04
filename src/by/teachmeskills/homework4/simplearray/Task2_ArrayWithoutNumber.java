@@ -1,4 +1,4 @@
-package by.teachmeskills.homework4_simple_array;
+package by.teachmeskills.homework4.simplearray;
 
 import java.util.Arrays;
 import java.util.Scanner;
