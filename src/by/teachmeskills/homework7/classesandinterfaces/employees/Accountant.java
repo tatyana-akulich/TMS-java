@@ -8,7 +8,7 @@ public class Accountant implements Position {
     }
 
     @Override
-    public void PrintFromClass() {
+    public void printFromClass() {
         System.out.println(this.name + " is " + this.getClass().getSimpleName());
     }
 }

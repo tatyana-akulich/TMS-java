@@ -4,6 +4,6 @@ public class EmployeesDemo {
     public static void main(String[] args) {
         Director director = new Director("Victor");
         director.printFromInterface();
-        director.PrintFromClass();
+        director.printFromClass();
     }
 }

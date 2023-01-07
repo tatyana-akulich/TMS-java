@@ -5,5 +5,5 @@ public interface Position {
         System.out.println("Position is " + this.getClass().getSimpleName());
     }
 
-    void PrintFromClass();
+    void printFromClass();
 }
