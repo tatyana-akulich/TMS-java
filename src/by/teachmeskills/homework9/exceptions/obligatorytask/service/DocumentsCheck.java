@@ -5,7 +5,7 @@ import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.Exception
 import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.Exception555;
 import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.ExceptionAbc;
 
-public class ExceptionsRealization {
+public class DocumentsCheck {
     public void checkExceptionAbc(Document document) throws ExceptionAbc {
         if (!document.getNumberOfDocument().contains("abc"))
             throw new ExceptionAbc();

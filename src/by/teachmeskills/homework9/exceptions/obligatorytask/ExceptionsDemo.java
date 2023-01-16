@@ -7,7 +7,7 @@ import by.teachmeskills.homework9.exceptions.obligatorytask.entities.FinancialIn
 import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.Exception1a2b;
 import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.Exception555;
 import by.teachmeskills.homework9.exceptions.obligatorytask.exceptions.ExceptionAbc;
-import by.teachmeskills.homework9.exceptions.obligatorytask.service.ExceptionsRealization;
+import by.teachmeskills.homework9.exceptions.obligatorytask.service.DocumentsCheck;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -25,7 +25,7 @@ public class ExceptionsDemo {
                 19, 384.03);
 
         try {
-            ExceptionsRealization exceptionsRealization = new ExceptionsRealization();
+            DocumentsCheck exceptionsRealization = new DocumentsCheck();
             exceptionsRealization.checkException1a2b(financialInvoice);
             exceptionsRealization.checkException555(contractForGoodsSupply);
             exceptionsRealization.checkExceptionAbc(contractWithEmployee);

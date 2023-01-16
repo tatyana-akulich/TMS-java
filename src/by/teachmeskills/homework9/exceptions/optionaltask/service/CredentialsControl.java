@@ -6,7 +6,7 @@ import by.teachmeskills.homework9.exceptions.optionaltask.exceptions.WrongPasswo
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class ExceptionsRealization {
+public class CredentialsControl {
     public static boolean checkCredentials(String login, String password, String confirmPassword) throws WrongLoginException, WrongPasswordException {
         if (login.length() >= 20 || login.indexOf(' ') >= 0) {
             throw new WrongLoginException("Invalid login");
