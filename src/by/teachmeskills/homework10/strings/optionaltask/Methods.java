@@ -74,7 +74,7 @@ public class Methods {
         if (words.length <= index || index < 0) {
             System.out.println("Invalid index");
         } else {
-            String chosenWord = words[index];
+            /*String chosenWord = words[index];
             int length = chosenWord.length();
             StringBuilder firstHalfOfWord;
             StringBuilder secondHalfOfWord;
@@ -82,6 +82,9 @@ public class Methods {
             secondHalfOfWord = (length % 2 == 0) ? new StringBuilder(chosenWord.substring(length / 2)) :
                     new StringBuilder(chosenWord.substring(length / 2 + 1));
             boolean result = (firstHalfOfWord.reverse().toString().equals(secondHalfOfWord.toString()));
+            System.out.println("Is palindrome " + chosenWord + "? - " + result + "\n");*/
+            String chosenWord = words[index];
+            boolean result = chosenWord.equals(new StringBuilder(chosenWord).reverse().toString());
             System.out.println("Is palindrome " + chosenWord + "? - " + result + "\n");
         }
     }

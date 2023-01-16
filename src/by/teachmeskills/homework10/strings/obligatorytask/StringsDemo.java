@@ -35,7 +35,7 @@ public class StringsDemo {
         Methods.changeLettersToStars(string);
         Methods.printLetterInLowerCase(string);
         Methods.printLettersInUpperCase(string);
-        System.out.println(Methods.contentsAbc(string));
+        System.out.println(Methods.containsAbc(string));
         System.out.println(Methods.startsWith555(string));
         System.out.println(Methods.endsWith1a2b(string));
     }

@@ -5,7 +5,7 @@ public class Main {
         String example = "fffff ab f 1234 jkjkl";
         Methods.findShortestAndLongestWords(example);
         Methods.findWordWithMinOfDiffSymbols(example);
-        Methods.isWordPalindrome(example, 0);
+        Methods.isWordPalindrome(example, 1);
         Methods.doubleLetters(example);
     }
 }
