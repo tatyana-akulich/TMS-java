@@ -45,9 +45,10 @@ public class Container {
     public void printAllSizes() {
         if (spheres.isEmpty()) {
             System.out.println("Container is empty");
-        } else
+        } else {
             System.out.println("Sizes of spheres");
-        spheres.forEach(sphere -> System.out.println(sphere.getSize()));
+            spheres.forEach(sphere -> System.out.println(sphere.getSize()));
+        }
     }
 
     public void printAllSpheres() {
