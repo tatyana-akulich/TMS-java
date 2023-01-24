@@ -1,2 +1,2 @@
 # TMS-autotesting
-Course autotesting on java TeachMeSkills. Part 1 - basics of java
+Course autotesting with java TeachMeSkills. Part 1 - basics of java
